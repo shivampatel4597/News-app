@@ -6,7 +6,7 @@ import NewsBoard from "./components/NewsBoard"
 
 const App = () => {
 
-  const [category,setCategory] = useState("business")
+  const [category,setCategory] = useState("general")
   return (
     <div>
 <Hello setCategory={setCategory}/>
